@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link href="img/youtube.png" rel="icon">
+    <link href="img/youtube.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="img/logo.PNG" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="Buscar">
+            <button class="search-btn"><img src="img/search.PNG" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="img/video.PNG" class="icon" alt="">
+            <img src="img/grid.PNG" class="icon" alt="">
+            <img src="img/bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="img/profile-pic.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="img/home.PNG" alt="">Inicio</a>
+        <a href="#" class="links"><img src="img/explore.PNG" alt="">Explorar</a>
+        <a href="#" class="links"><img src="img/subscription.PNG" alt="">Subscripcion</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="img/library.PNG" alt="">Libreria</a>
+        <a href="#" class="links"><img src="img/history.PNG" alt="">Historial</a>
+        <a href="#" class="links"><img src="img/your-video.PNG" alt="">Mis Videos</a>
+        <a href="#" class="links"><img src="img/watch-later.PNG" alt="">Ver mas Tarde</a>
+        <a href="#" class="links"><img src="img/liked video.PNG" alt="">Video que me Gustan</a>
+        <a href="#" class="links"><img src="img/show more.PNG" alt="">Ver Mas</a>
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+        <button class="filter-options active">Todos</button>
+        <button class="filter-options">Programacion</button>
+        <button class="filter-options">Musica Cristiana</button>
+        <button class="filter-options">Musica Instrumental</button>
+        <button class="filter-options">Series</button>
+        <button class="filter-options">Documentales</button>
+        <button class="filter-options">Autos</button>
+        <button class="filter-options">Computadoras</button>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container">
+         <div class="video">
+            <img src="img/reproduccion.png" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/profile-pic.png" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Programacion</h4>
+                    <p class="channel-name">Cursos en Linea</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
